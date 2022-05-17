@@ -14,3 +14,8 @@ These are some solutions to problems I have run into as a programmer. I found th
        -w    #translate from a WSL path to a Windows path
        -m    #translate from a WSL path to a Windows path, with ‘/’ instead of ‘\\’ 
    ```
+7. To add permanent aliases in Linux:
+    1. Type `gedit ~/.bashrc` in the terminal to open the `~/.bashrc` file in the editor. 
+    2. Add your alias as `alias name="your command"` at the end of the file. Make sure to have no spaces around the `=`. Save and exit.
+    3. Return to the terminal and type `source ~/.bashrc`. 
+    4. Now, type the alias and see if it works.
