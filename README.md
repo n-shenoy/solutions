@@ -19,3 +19,5 @@ These are some solutions to problems I have run into as a programmer. I found th
     2. Add your alias as `alias name="your command"` at the end of the file. Make sure to have no spaces around the `=`. Save and exit.
     3. Return to the terminal and type `source ~/.bashrc`. 
     4. Now, type the alias and see if it works.
+
+8. To find the number of rows in a data file, type the following in the command line: `grep -v "^#" file.txt|wc -l`. If the file has spaces in its name, enclose the file name in single or double quotes, for example: `grep -v "^#" "file name.txt"|wc -l`.
